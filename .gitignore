@@ -71,14 +71,16 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 # Project exclude paths
 /.gradle/
+*.iml
+*.html
+*.class
+*.txt
+*.yaml
+*.css
+*.bat
+*.jar
+*.properties
+*.xml
 /Tic-Tac-Toe/task/build/
 /Tic-Tac-Toe/task/test/
-.idea/
-.idea/**/sqlDataSources.xml
-/Problems/**/*.yaml
-/Problems/**/*.html
-/Problems/**/*.class
-/Tic-Tac-Toe/**/*.yaml
-/Tic-Tac-Toe/**/*.html
-/Tic-Tac-Toe/**/*.class
-/Tic-Tac-Toe/**/*.css
+/Tic-Tac-Toe/The user is the gamemaster/
