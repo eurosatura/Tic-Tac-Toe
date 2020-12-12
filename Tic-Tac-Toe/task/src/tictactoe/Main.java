@@ -7,12 +7,9 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
         String cells = "_________";
-
-        //--printGrid(cells);
         char[][] matrix = fillTheMatrix(cells);
         printGridFromMatrix(matrix);
         startTheGame(matrix);
-
 
     }
 
@@ -114,10 +111,8 @@ public class Main {
         boolean oWon;
         int xQuantity = counter(matrix, 'X');
         int oQuantity = counter(matrix, 'O');
-        //System.out.println("X in cells: " + xQuantity + " and O in cells: " + oQuantity);
         xWon = checkRowsColsDiags('X', matrix);
         oWon = checkRowsColsDiags('O', matrix);
-        //System.out.println("xWon value: " + xWon + " and oWon value: " + oWon);
         if (Math.abs(xQuantity - oQuantity) > 1) {
             System.out.println("Impossible");
             return true;
